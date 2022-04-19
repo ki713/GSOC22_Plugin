@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="plugin" version="4.1" group="content" method="upgrade">
+    <name>NEW_PLUGIN.9</name>
+    <version>1.0.0</version>
+    <creationDate>2022-18-04</creationDate>
+    <license>https://www.gnu.org/licenses/gpl</license>
+    <copyright>Copyright 2022 of Kiranprret Sethi. All rights reserved.</copyright>
+    <author>Kiranpreet Sethi</author>
+    <authorEmail>kiranprretsethi65@gmail.com</authorEmail>
+    <description>Plugin Dummy Extension</description>
+    <files>
+        <filename plugin="mod_workshop">mod_workshop.php</filename>
+    </files>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.mod_workshop.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.mod_workshop.sys.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+            <fieldset name = "basic">
+                <field name="mytextarea" default = "Hello World" type="textarea" label="Enter Dummy Text" description="" rows="10" cols="5"  />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
